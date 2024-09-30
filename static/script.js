@@ -1,7 +1,4 @@
-
-
-// Home Starts
-var menuBtn = document.querySelector('.main-navbar .menu-btn');
+elector('.main-navbar .menu-btn');
 var menuList = document.querySelector('.main-navbar .nav-list');
 var menuListItems = document.querySelectorAll('.nav-list li a');
 
@@ -77,4 +74,3 @@ $('.testimonials-slider').owlCarousel({
     }
 })
 // Testimonials Ends
-

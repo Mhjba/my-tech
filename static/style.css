@@ -586,14 +586,6 @@ section.test{
 	line-height: 1.5;
 	color: var(--dark-text-clr);
 }
-.test-item .quote{
-	text-align: center;
-}
-.test-item .quote i{
-	font-size: 25px;
-	color: var(--dark-text-clr);
-	margin-right: 20px;
-}
 .test-item .ratings{
 	margin-top: 20px;
 }
@@ -610,11 +602,27 @@ section.test{
 	padding: 5px 50px 5px 5px;
 	background-color: var(--light-heading-clr);
 	border-radius: 5px;
-	bottom: -45vh;
+	bottom: -70vh;
 	right: 475px;
 	
 	display: flex;
 	align-items: center;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
+}
+.banner-img-container .states .courses-ratings{
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: var(--light-heading-clr);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	bottom: -50vh;
+	right: 520px;
+	
 	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
 }
 .states .total-courses .icon{
@@ -648,22 +656,7 @@ section.test{
 	font-size: 15px;
 	color: var(--dark-text-clr);
 }
-.banner-img-container .states .courses-ratings{
-	position: absolute;
-	width: 90px;
-	height: 90px;
-	padding: 10px;
-	border-radius: 50%;
-	background-color: var(--light-heading-clr);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	bottom: -25vh;
-	right: 520px;
-	
-	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.3);
-}
+
 .states .courses-ratings span:nth-child(1){
 	color: var(--dark-heading-clr);
 	font-size: 24px;
@@ -800,4 +793,3 @@ section.footer{
 		transform: translateY(0px);
 	}
 }
-
